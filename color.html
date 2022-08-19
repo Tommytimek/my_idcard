@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>色卡</title>
+    <style>
+        small {
+            background-color: rgba(255, 255, 255, 0.6);
+            color: rgba(0, 0, 0, 0.8);
+            padding: 5px;
+            border-radius: 5px;
+            mask-border: 5px;
+        }
+
+        .body {
+            display: inline-flex;
+        }
+
+        .under{
+            margin-top: 50px;
+            width: 90px;
+            height: 5px;
+        }
+
+        .card,
+        .text,
+        .diamonds {
+            margin: 5px;
+            padding: 30px;
+            border-radius: 5px;
+        }
+
+        .text {
+            color: rgba(0, 0, 0, 0.8);
+        }
+
+        .diamonds {
+            background: rgba(144, 144, 144, 0.08);
+            max-width: 1200px;
+            min-width: 700px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="tltle">
+        <h1>color card</h1>
+    </div>
+    <div id="body">
+        <div class="diamonds">
+            <div style="display: flex">
+                <p class="text">大自然 · 配色灵感 | 39</p>
+                <div class="under" style="background-color: #e7e7e6"></div>
+                <div class="under" style="background-color: #e4eff1"></div>
+                <div class="under" style="background-color: #c5e6e7"></div>
+                <div class="under" style="background-color: #aadad4"></div>
+                <div class="under" style="background-color: #87d7cf"></div>
+            </div>
+            <div style="display: flex">
+                <div class="card" style="background-color: #e7e7e6"><small>#E7E7E6</small></div>
+                <div class="card" style="background-color: #e4eff1"><small>#E4EFF1</small></div>
+                <div class="card" style="background-color: #c5e6e7"><small>#C5E6E7</small></div>
+                <div class="card" style="background-color: #aadad4"><small>#AADAD4</small></div>
+                <div class="card" style="background-color: #87d7cf"><small>#87D7CF</small></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
