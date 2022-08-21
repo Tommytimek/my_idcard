@@ -1,0 +1,76 @@
+body {
+    background: hsla(39, 100%, 69%, 0.2);
+}
+
+a.tag:link,
+a.tag:visited {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    background: hsla(0, 0%, 100%, 0.8);
+    color: hsla(0, 0%, 0%, 0.6);
+    text-decoration: none;
+}
+
+a.tag:hover {
+    background: hsla(0, 0%, 100%, 0.5);
+}
+
+a.tag:active {
+    background: hsla(0, 0%, 100%, 0.1);
+}
+
+
+li{
+    margin-top: 25px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+}
+
+.title {
+    grid-area: 1 / 1 / 2 / 6;
+    padding: 15px;
+    min-width: 800px;
+    background: hsla(39, 100%, 69%, 0.75);
+    color: hsla(0, 0%, 0%, 0.8);
+    border-radius: 15px;
+}
+
+.tags {
+    grid-area: 2 / 1 / 5 / 2;
+    background: hsla(39, 100%, 69%, 0.5);
+    border-radius: 15px;
+}
+
+.div1 {
+    grid-area: 2 / 2 / 5 / 4;
+    padding: 15px;
+    background: hsla(39, 100%, 69%, 0.5);
+    color: hsla(0, 0%, 0%, 0.8);
+    border-radius: 15px;
+}
+
+.div2 {
+    grid-area: 2 / 4 / 5 / 6;
+    padding: 15px;
+    background: hsla(39, 100%, 69%, 0.5);
+    color: hsla(0, 0%, 0%, 0.8);
+    border-radius: 15px;
+}
+
+.ending {
+    grid-area: 5 / 1 / 6 / 6;
+    padding: 15px;
+    min-width: 800px;
+    font-size: 12px;
+    background: hsla(39, 100%, 69%, 0.75);
+    color: hsla(0, 0%, 0%, 0.8);
+    border-radius: 15px;
+    text-align: center;
+}
